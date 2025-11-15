@@ -16,14 +16,10 @@ rtp:prepend(lazypath)
 require('lazy').setup({
     require 'mourya/plugin/autopair',
     require 'mourya/plugin/treesitter',
-    require 'mourya.plugin.todo',
     require 'mourya.plugin.telescope',
     require 'mourya.plugin.neotree',
     require 'mourya.plugin.lspconfig',
     require 'mourya.plugin.blink-cmp',
     require 'mourya.plugin.gruvbox',
-    require 'mourya.plugin.fugitive',
-    require 'mourya.plugin.alpha',
-    require 'mourya.plugin.lualine',
-    require 'mourya.plugin.copilot',
+    -- require 'mourya.plugin.copilot',
 })

@@ -29,7 +29,9 @@ return { -- Fuzzy Finder (files, lsp, etc)
                   'sound',
                   'node_module',
                   'env',
-                  '.uid'
+                  '.uid',
+                  'obj',
+                  'bin',
               }
           }
       }
