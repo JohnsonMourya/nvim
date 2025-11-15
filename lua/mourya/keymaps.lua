@@ -35,3 +35,7 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+-- stop f1 
+vim.keymap.set('n', "F1", nil)
+vim.keymap.set('v', "F1", nil)
+vim.keymap.set('i', "F1", nil)
