@@ -14,8 +14,6 @@ vim.o.shiftwidth = 2
 vim.o.expandtab = true
 
 vim.o.smartindent = true
-vim.o.clipboard = 'unnamedplus'
--- vim.g.clipboard = "xclip"
 
 vim.o.swapfile = false
 vim.o.backup = false

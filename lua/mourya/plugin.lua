@@ -22,4 +22,5 @@ require('lazy').setup({
     require 'mourya.plugin.blink-cmp',
     require 'mourya.plugin.gruvbox',
     -- require 'mourya.plugin.copilot',
+    require 'mourya.plugin.lualine',
 })
