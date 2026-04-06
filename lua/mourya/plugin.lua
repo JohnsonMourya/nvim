@@ -14,13 +14,15 @@ local rtp = vim.opt.rtp
 rtp:prepend(lazypath)
 
 require('lazy').setup({
-    require 'mourya/plugin/autopair',
-    require 'mourya/plugin/treesitter',
+    require 'mourya.plugin.autopair',
+    require 'mourya.plugin.treesitter',
     require 'mourya.plugin.telescope',
     require 'mourya.plugin.neotree',
     require 'mourya.plugin.lspconfig',
     require 'mourya.plugin.blink-cmp',
     require 'mourya.plugin.gruvbox',
+    require 'mourya.plugin.markdown-plus',
+    require 'mourya.plugin.gitsigns',
     -- require 'mourya.plugin.copilot',
     require 'mourya.plugin.lualine',
 })
